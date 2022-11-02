@@ -145,7 +145,7 @@ function M.setup()
 			"nvim-lualine/lualine.nvim",
 			event = "VimEnter",
 			config = function()
-			 require("config.lualine").setup()
+			  require("config.lualine").setup()
 			end,
 			requires = { "nvim-web-devicons" },
 		}
